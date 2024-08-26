@@ -1,0 +1,67 @@
+
+
+body {
+width: 100vw;
+background-color: #c90a36;
+height: 100vh;
+margin: 0;
+}
+
+.hero-title{
+    font-size: 5rem;
+    width : 70%;
+    margin : auto;
+    padding-top : 40vh;
+    text-align : center;
+    
+}
+
+.wrapper-hero{
+    height : 100vh;
+    width : 100vw;
+}
+
+.wrapper{
+    width : 80vw;
+    margin : auto;
+    display : flex;
+    align-items : space-between;
+    gap : 10vw;
+    flex-wrap: wrap;
+  
+}
+
+.card-container {
+    padding-bottom : 10vh;
+}
+
+.card {
+width: 250px;
+height: 350px;
+transition: transform 1s;
+transform-style: preserve-3d;
+position: relative;
+}
+
+.card.is-flipped {
+transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+backface-visibility: hidden;
+}
+
+.card-front {
+background-image: url('dev.png'); /* Replace with your front image */
+background-size: cover;
+}
+
+.card-back {
+background-image: url('back.png'); /* Replace with your back image */
+background-size: cover;
+transform: rotateY(180deg);
+}
