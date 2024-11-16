@@ -1,1 +1,1 @@
-Executive Committee cards for ACM SIGAI website 
+Executive Committee cards for Elicit website, biggest techfest organised by ACM MUJ 
